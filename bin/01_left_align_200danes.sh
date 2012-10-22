@@ -2,7 +2,7 @@
 #SBATCH -A b2011026
 #SBATCH -p node
 #SBATCH -n 32
-#SBATCH -t 1:00:00
+#SBATCH -t 20:00:00
 #SBATCH -J coca_la200
 
 start_time=$(date +%s)
